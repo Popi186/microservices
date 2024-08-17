@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Hello Baby - from Production"
+  contactDetails:
+    name: "Arpita - Production"
+    email: "arpita@gmail.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 555-6789
